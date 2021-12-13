@@ -36,4 +36,156 @@
     transform: scale(0.5);
     transition: 1s;
 }
-/* Eserciizo 5 */
+/* Esercizio 5 */
+
+/* Esercizio 6 */
+.ex-6-img:hover {
+    filter: grayscale(100%);
+}
+/* Esercizio 6 */
+
+/* Esercizio 7 */
+.ex-7-img:hover {
+    filter: grayscale(100%);
+    transition: 2s;
+}
+/* Esercizio 7 */
+
+/* Esercizio 8 */
+.ex-8-img:hover {
+    filter: grayscale(100%);
+    transition: 2s;
+}
+
+.ex-8-img:hover {
+    border-radius: 20px;
+    transition: 2s;
+}
+/* Esercizio 8 */
+
+/* Esercizio 9 */
+.ex-9-img:hover {
+    filter: grayscale(100%);
+    transition: 2s;
+}
+
+.ex-9-img:hover {
+    border-radius: 20px;
+    transition: 2s;
+    transform: scale(1.5);
+}
+/* Esercizio 9 */
+
+/* Esercizio 10 */
+.ex-10-icon {
+    animation: rotazione 1s linear infinite;
+}
+@keyframes rotazione {
+    100% {
+        transform: rotate(1turn);
+    }
+}
+/* Esercizio 10 */
+
+/* Esercizio 11 */
+.ex-11-icon:hover {
+    animation: rotazione-2 2s linear;
+}
+@keyframes rotazione-2 {
+    90% {
+        transform: rotate(0.90turn);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+/* Esercizio 11 */
+
+/* Esercizio 12 */
+.ex-12-button:hover .ex-12-top-white {
+    animation: spostamento-top 2s linear;
+}
+
+@keyframes spostamento-top {
+    50% {
+        left: calc(100% - 60px);
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: spostamento-bottom 2s linear;
+}
+
+@keyframes spostamento-bottom {
+    50% {
+        right: calc(100% - 60px);
+    }
+}
+/* Esercizio 12 */
+
+/* Esercizio 13 */
+.ex-13-button:hover .ex-13-top-white {
+    animation: spostamento-top-completo 2s linear;
+}
+
+@keyframes spostamento-top-completo {
+    0% {
+        left: 10%;
+        top: -10px;
+    }
+    25% {
+        left: calc(100% - 30px);
+        top: -10px;
+    }
+    50% {
+        left: calc(100% - 30px);
+        top: 100%;
+    }
+    75% {
+        left: 0;
+        top: 100%;
+    }
+
+    95% {
+        left: -15px;
+        top: -10px;
+    }
+
+    100% {
+        left: 10%;
+        top: -10px;
+    }
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: spostamento-bottom-completo 2s linear;
+}
+@keyframes spostamento-bottom-completo {
+    0% {
+        right: 10%;
+        bottom: -10px;
+    }
+    25% {
+        right: calc(100% - 30px);
+        bottom: -10px;
+    }
+    50% {
+        right: calc(100% - 30px);
+        bottom: 100%;
+    }
+    75% {
+        right: 0;
+        bottom: 100%;
+    }
+
+    95% {
+        right: -15px;
+        bottom: -10px;
+    }
+
+    100% {
+        right: 10%;
+        bottom: -10px;
+    }
+}
+/* Esercizio 13 */
